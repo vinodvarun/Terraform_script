@@ -1,0 +1,46 @@
+ 1958  ls
+ 1959  ls -lrt
+ 1960  cd Docker
+ 1961  ls
+ 1962  ls -lrt
+ 1963  sudo docker build .
+ 1964  cat Docker_file 
+ 1965  docker --version
+ 1966  sudo docker --version
+ 1967  whereis docker
+ 1968  sudo cd /usr/bin/docker /etc/docker /usr/share/docker.io /snap/bin/docker.help /snap/bin/docker.machine /snap/bin/docker.compose /snap/bin/docker /usr/share/man/man1/docker.1.gz
+ 1969  sudo ls /usr/bin/docker /etc/docker /usr/share/docker.io /snap/bin/docker.help /snap/bin/docker.machine /snap/bin/docker.compose /snap/bin/docker /usr/share/man/man1/docker.1.gz
+ 1970  sudo docker ps -a
+ 1971  sudo docker images
+ 1972  sudo docker volume ls
+ 1973  sudo docker volume manivol
+ 1974  sudo docker volume create manivol
+ 1975  sudo docker volume ls
+ 1976  sudo docker inspect manivol
+ 1977  sudo ls /var/snap/docker/common/var-lib-docker/volumes/manivol/_data
+ 1978  sudo ls -lrt /var/snap/docker/common/var-lib-docker/volumes/manivol/_data
+ 1979  sudo docker volume create datavol
+ 1980  sudo docker volume ls
+ 1981  sudo docker ps -a
+ 1982  sudo docker run -d -it --name ubuntu1 --mount source=manivol,destination=/data ubuntu /bin/bash
+ 1983  sudo docker ls
+ 1984  ls
+ 1985  sudo docker
+ 1986  host name
+ 1987  ls
+ 1988  git init
+ 1989  ls -a
+ 1990  ls .git
+ 1991  git status
+ 1992  git add .
+ 1993  git status
+ 1994  git commit -m "commit of the sample code"
+ 1995  git staus
+ 1996  git status
+ 1997  git log
+ 1998  git romate add origin https://github.com/vinodvarun/Terraform_script
+ 1999  git remote add origin https://github.com/vinodvarun/Terraform_script
+ 2000  git push origin main
+ 2001  git remote -v
+ 2002  git push origin master
+ 2003  history
